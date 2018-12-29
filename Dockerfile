@@ -7,5 +7,8 @@ RUN npm run build
 
 FROM nginx
 COPY --from=builder /app/build /usr/share/nginx/html
+<<<<<<< HEAD:dockerfile
 
 EXPOSE 80
+=======
+>>>>>>> 6c87e4a8a50f474194aeb23136dc10a83f901824:Dockerfile
